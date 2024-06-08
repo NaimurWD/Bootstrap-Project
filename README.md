@@ -1,2 +1,3 @@
-#Live Link
-[text](Live-Preview)https://naimurwd.github.io/Bootstrap-Projcet/
+# Live Link
+
+https://naimurwd.github.io/Bootstrap-Projcet/
