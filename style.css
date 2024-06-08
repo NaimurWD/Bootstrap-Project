@@ -67,14 +67,14 @@ hr {
   grid-template-columns: 1fr;
 }
 .bg-img {
-  background-image: url(Images/Left.png), url(Images/Right.png);
+  background-image: url(images/Left.png), url(images/Right.png);
   background-repeat: no-repeat, no-repeat;
   background-position: left, right;
   background-size: contain, contain;
 }
 
 .bg-right {
-  background-image: url(Images/Decoration.png);
+  background-image: url(images/Decoration.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -98,7 +98,7 @@ hr {
     padding-top: 5rem !important;
   }
   .bg-img {
-    background-image: url(Images/Left.png);
+    background-image: url(images/Left.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
