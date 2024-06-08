@@ -1,0 +1,128 @@
+/*
+ExtraLight 200
+Light 300
+Regular 400
+Medium 500
+SemiBold 600
+Bold 700
+ExtraBold 800
+*/
+
+/* General SECTION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+.witdhmid {
+  width: 80%;
+  margin: auto;
+}
+.bold {
+  font-weight: 700;
+}
+.regular {
+  font-weight: 500;
+}
+.font-heading {
+  font-size: 64px;
+}
+hr {
+  border: 1px solid black !important;
+}
+.btn-white {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.07);
+}
+.mb-6 {
+  margin-bottom: 6rem;
+}
+.my-12 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.py-6 {
+  padding-bottom: 2rem !important;
+  padding-top: 2rem !important;
+}
+
+.py-md-8 {
+  padding-bottom: 4rem !important;
+  padding-top: 4rem !important;
+}
+.transform-left-1 {
+  transform: translateX(-5px);
+}
+.transform-left-2 {
+  transform: translateX(-20px);
+}
+.col-5 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.bg-img {
+  background-image: url(Images/Left.png), url(Images/Right.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: contain, contain;
+}
+
+.bg-right {
+  background-image: url(Images/Decoration.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+@media only screen and (max-device-width: 1200px) {
+  .font-heading {
+    font-size: 46px;
+  }
+}
+
+@media only screen and (max-device-width: 992px) {
+  .font-heading {
+    font-size: 36px;
+  }
+}
+
+@media (max-device-width: 768px) {
+  .py-md-11 {
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important;
+  }
+  .bg-img {
+    background-image: url(Images/Left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+/* scroll bar SECTION  */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffb1a8 #fafafa;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fafafa;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffb1a8;
+  border-radius: 3px;
+  border: 2px solid #fafafa;
+}
