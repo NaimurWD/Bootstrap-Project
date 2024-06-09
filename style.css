@@ -97,11 +97,18 @@ hr {
     padding-bottom: 5rem !important;
     padding-top: 5rem !important;
   }
-  .bg-img {
+  /* .bg-img {
     background-image: url(images/Left.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+  } */
+  .bg-img {
+    background-image: url(images/Decoration.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 180px auto;
   }
 }
 
